@@ -124,16 +124,19 @@ https://www.jetbrains.com/pycharm/
 <img width="383" alt="image" src="https://github.com/mazawi/Teaching-Python/assets/45329653/c2cdc5b5-f321-4f1a-941f-d580fcc13657">
 
 Figure ‎1 7 Pycharm Website
+
 #### 1.7.2.2	ATOM:  https://atom.io/ 
  
 <img width="286" alt="image" src="https://github.com/mazawi/Teaching-Python/assets/45329653/649236ac-5b3f-4656-83bf-3f4d98841518">
 
 Figure ‎1 8 Atom IDE Interface
+
 #### 1.7.2.3	Thonny: https://thonny.org/ 
  
 <img width="283" alt="image" src="https://github.com/mazawi/Teaching-Python/assets/45329653/cf9eeced-3421-4988-9ac1-5e07edee6c98">
 
 Figure ‎1 9 Thonny IDE Interface
+
 #### 1.7.2.4	Visual Studio Code: https://code.visualstudio.com/download 
  
 <img width="312" alt="image" src="https://github.com/mazawi/Teaching-Python/assets/45329653/c6c6e875-def2-4459-acd4-0fd04da6cc28">
@@ -141,18 +144,23 @@ Figure ‎1 9 Thonny IDE Interface
 Figure ‎1 10 Visual Studio Code Interface
 
 More are available at: https://www.programiz.com/python-programming/ide 
+
 ### 1.7.3	Online IDE
+
 1-	Programiz: https://www.programiz.com/python-programming/online-compiler/ 
  
 <img width="353" alt="image" src="https://github.com/mazawi/Teaching-Python/assets/45329653/8c433c90-d25e-43b7-8602-ac74c26365e9">
 
 Figure ‎1 11 Programiz Online IDE
+
 2-	Colab from Google: [https://colab.research.google.com/](https://colab.research.google.com/notebooks/intro.ipynb)  
  
 <img width="335" alt="image" src="https://github.com/mazawi/Teaching-Python/assets/45329653/66872400-13ab-40c2-95f3-58bc8763fb54">
 
 Figure ‎1 12 Google Colab Online IDE
+
 ### 1.7.4	Local Servers
+
 ANACONDA: https://www.anaconda.com/products/individual 
  
 <img width="342" alt="image" src="https://github.com/mazawi/Teaching-Python/assets/45329653/6d2cd6c2-af67-4204-9e92-7aa42eb054ac">
