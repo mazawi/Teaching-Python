@@ -112,6 +112,13 @@ result = (6 <= 4)  # Output: False
 
 Logical operators perform logical operations on boolean values.
 
+| Operation | Description           | Example                  | Result |
+|-----------|-----------------------|--------------------------|--------|
+| `and`     | Logical AND           | `True and False`         | `False`|
+| `or`      | Logical OR            | `True or False`          | `True` |
+| `not`     | Logical NOT           | `not True`               | `False`|
+
+
 ### AND (and)
 
 ```python
