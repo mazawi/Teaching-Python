@@ -27,9 +27,9 @@ greeting_double = "Welcome to the Strings World."
 
 **Type Function:**
    - Use of `type()` function to check the data type:
-     ```python
-     type_of_string = type("Hello, Python!")
-     ```
+```python
+type_of_string = type("Hello, Python!")
+```
 
 **Benefits of Strings:**
    - "Strings provide flexibility for handling diverse forms of textual information."
@@ -74,9 +74,9 @@ greeting_double = "Welcome to the Strings World."
 **Code Example:**
 
 ```python
-     greeting = "Hello"
-     name = "Ali"
-     full_greeting = greeting + " " + name
+greeting = "Hello"
+name = "Ali"
+full_greeting = greeting + " " + name
 ```
 
 **Explanation:**
@@ -104,7 +104,7 @@ greeting_double = "Welcome to the Strings World."
 **Type Function:**
     - Use of `type()` function to check the data type:
 ```python
-      type_of_result = type(full_greeting)
+type_of_result = type(full_greeting)
 ```
 
 ## String Indexing in Python
