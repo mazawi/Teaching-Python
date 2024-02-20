@@ -82,7 +82,7 @@ full_greeting = greeting + " " + name
 **Explanation:**
    - in this code:
      - `greeting`: Contains the string "Hello".
-     - `name`: Contains the string "Alice".
+     - `name`: Contains the string "Ali".
      - `full_greeting`: Concatenates the two strings with a space in between.
 
 **Concatenation with Variables:**
