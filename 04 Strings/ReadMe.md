@@ -22,7 +22,8 @@ greeting_double = "Welcome to the Strings World."
      - "Working with user inputs and messages."
 
 **String Immunity:**
-   - "Strings in Python are immutable, meaning their values cannot be changed after creation. Operations on strings create new strings."
+   - "Strings in Python are immutable, meaning their values cannot be changed after creation. 
+   - Operations on strings create new strings."
 
 **Type Function:**
    - Use of `type()` function to check the data type:
