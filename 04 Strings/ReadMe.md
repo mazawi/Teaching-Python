@@ -86,7 +86,7 @@ full_greeting = greeting + " " + name
      - `full_greeting`: Concatenates the two strings with a space in between.
 
 **Concatenation with Variables:**
-   - Emphasize that variables containing strings can be concatenated using the `+` operator.
+   - variables containing strings can be concatenated using the `+` operator.
    - Example:
      ```python
      part_1 = "Python is"
