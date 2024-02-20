@@ -11,9 +11,9 @@
    - "They can represent single characters or entire paragraphs."
 
 Example:
-```c
+```python
 greeting_single = 'Hello, Python!'
-     greeting_double = "Welcome to the Strings World."
+greeting_double = "Welcome to the Strings World."
 ```
 **Use Cases:**
    - "Strings are commonly used for:"
