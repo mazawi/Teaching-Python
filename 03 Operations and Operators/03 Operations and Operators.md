@@ -187,8 +187,6 @@ result = 8 >> 1  # Output: 4
 Assignment operators are used to assign values to variables.
 
 
-Assignment operators are used to assign values to variables.
-
 | Operator | Example     | Equivalent to |
 |----------|-------------|---------------|
 | `=`      | `x = 10`    |               |
