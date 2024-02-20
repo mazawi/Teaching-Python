@@ -38,8 +38,7 @@ type_of_string = type("Hello, Python!")
 
 ## Creating Strings
 
-**Introduction:**
-   - Let's start by understanding how we can create strings in Python. Strings are sequences of characters, and we can represent text data in various ways."
+   - Strings are sequences of characters, and we can represent text data in various ways."
 
 **Single and Double Quotes:**
    - "Strings can be created using single (' ') or double (" ") quotes."
@@ -145,7 +144,7 @@ type_of_result = type(full_greeting)
        - Example:
          ```python
          message = "Hello, Python!"
-         length = len(message)  # Output: 13
+         length = len(message)  # Output: 14
          ```
 
      - **`upper()` and `lower()`:**
@@ -162,7 +161,7 @@ type_of_result = type(full_greeting)
        - Example:
          ```python
          sentence = "Python is powerful and fun."
-         count_o = sentence.count("o")  # Output: 4
+         count_o = sentence.count("o")  # Output: 2
          ```
 
      - **`find()` and `replace()`:**
@@ -234,8 +233,6 @@ type_of_result = type(full_greeting)
     - string formatting does not modify the original strings.
     - f-strings are available from Python 3.6 onwards.
 
-Certainly! Here's a suggested content outline for slides about slicing in Python:
-
 ## String Slicing in Python
 
    - Extracting Substrings with Precision
@@ -253,14 +250,14 @@ Certainly! Here's a suggested content outline for slides about slicing in Python
 **Slicing with Steps:**
 ```python
      numbers = "0123456789"
-     even_numbers = numbers[1:10:2]  # Slicing with steps to get even numbers
+     even_numbers = numbers[0:10:2]  # Slicing with steps to get even numbers
      print(even_numbers)
 ```
 
 **Negative Indexing in Slicing:**
 ```python
-      text = "Python is amazing"
-      last_word = text[-7:-1]  # Slicing using negative indices
+      text = "Python is amazing "
+      last_word = text[-8:-1]  # Slicing using negative indices
       print(last_word)
 ```
 
@@ -273,6 +270,16 @@ Certainly! Here's a suggested content outline for slides about slicing in Python
    - "Escape characters are used to represent characters with special meanings in strings. They begin with a backslash (`\`)."
 
 **Common Escape Characters:**
+
+| Escape Character | Description                        | Example                     | Result          |
+|------------------|------------------------------------|-----------------------------|-----------------|
+| `\n`             | Newline                            | `"Hello,\nPython!"`         | Hello,<br>Python!|
+| `\t`             | Tab                                | `"Indented.\tTabbed!"`       | Indented.    Tabbed! |
+| `\\`             | Backslash                          | `"C:\\Users\\Username"`     | C:\Users\Username|
+| `\'`             | Single Quote                       | `\'This is a quote.\'`      | 'This is a quote.'|
+| `\"`             | Double Quote                       | `"This is a quote in \"quotes\"."` | This is a quote in "quotes".|
+
+
    - **Newline (`\n`):**
      - "Creates a new line in the string."
 ```python
