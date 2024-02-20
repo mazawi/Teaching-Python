@@ -11,7 +11,7 @@
    - "They can represent single characters or entire paragraphs."
 
 Example:
-```python
+```c
 greeting_single = 'Hello, Python!'
      greeting_double = "Welcome to the Strings World."
 ```
