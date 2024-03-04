@@ -1,7 +1,7 @@
 
-## Flow of Control - Loops in Python 
+# Flow of Control - Loops in Python 
 
-#### **Understanding Flow of Control - Loops in Python**
+## **Understanding Flow of Control - Loops in Python**
 
 - **Importance of Repetition:**
   - In programming, repetition is a fundamental concept. Loops provide a mechanism for efficiently executing a block of code repeatedly.
@@ -47,9 +47,16 @@
 1. **`for` Loop:**
       - Used for iterating over a sequence (e.g., list, tuple, string).
       - Controlled by the number of elements in the sequence.
+
+  ![image](https://github.com/mazawi/Teaching-Python/assets/45329653/f07559db-40ab-4792-8ffb-77435bb5999a)
+
+
  2. **`while` Loop:**
       - Continues executing as long as a specified condition is true.
       - Controlled by the truth value of the condition.
+
+![image](https://github.com/mazawi/Teaching-Python/assets/45329653/0663e97b-abef-49d1-a412-c155002ca53a)
+
 
 - **Importance:**
   - - **Efficiency:**
@@ -299,5 +306,48 @@
             for item in items_of_category:
                 process(item)
         ```
+
+## Nested Loops
+
+- Nested loops involve placing one loop inside another.
+- To perform more complex and intricate iterations over multiple sets of data.
+
+- **Syntax:**
+  ```python
+  for outer_item in outer_sequence:
+      for inner_item in inner_sequence:
+          # Code block to repeat
+  ```
+
+- **Example: Multiplication Table**
+  ```python
+  for i in range(1, 6):
+      for j in range(1, 6):
+          print(i * j, end="\t")
+      print()  # Move to the next line for a new row
+  ```
+  - **Output:**
+    ```
+    1    2    3    4    5
+    2    4    6    8   10
+    3    6    9   12   15
+    4    8   12   16   20
+    5   10   15   20   25
+    ```
+
+- **Explanation:**
+  - The outer loop iterates through each row (1 to 5).
+    - The inner loop iterates through each column (1 to 5) for the current row.
+    - The multiplication of `i` and `j` gives the values for each cell in the table.
+
+  - **Hierarchy of Loops:**
+    - The inner loop completes its iterations for each iteration of the outer loop.
+  - **Example:**
+    ```python
+    for category in categories:
+        for item in items_of_category:
+            process(item)
+    ```
+
 
 
